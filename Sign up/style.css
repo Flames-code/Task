@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #afe1ee;
+  line-height: 1.8em;
+}
+
+#container {
+  width: 1000px;
+  height: 600px;
+  background: #fff;
+  margin: 70px auto;
+  overflow: auto;
+}
+
+#container .info-left {
+  background: url(./img1.jpg) no-repeat center center/cover;
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#container .info-left h2 {
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin: 50% auto;
+  letter-spacing: .9rem;
+}
+
+.info-left h2 p {
+  font-weight: 300;
+  font-style: normal;
+}
+
+#container .info-right {
+  display: block;
+  float: right;
+  min-height: 100%;
+  width: 50%;
+  padding: 30px 60px;
+  color: #ccc;
+}
+
+#container .info-right h3{
+text-align: center;
+color: #000;
+letter-spacing: .4rem;
+}
+
+#container .info-right p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#container .info-right .form-group {
+  margin-top: 15px;
+}
+
+#container .info-right label {
+  display: block; 
+  margin-top: 10px;
+}
+
+#container .form-group input{
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#container .form-group span .icon {
+  position: relative;
+  float: right;
+}
+
+::placeholder{
+  font-size: 16px;
+  font-style: normal;
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container .info-right .checkbox {
+  margin-top: 25px;
+}
+
+#container .info-right button {
+  display: block;
+  margin: 25px auto;
+  padding: 10px 25px;
+  background: #222121;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#container .info-right button:hover {
+  background: #666;
+  color: #afe1ee;
+}
+
+#container .info-right .navbar ul {
+  color: #000;
+  list-style: none;
+  margin-top: 80px;
+}
+
+#container .info-right .navbar ul li {
+  display: inline-block;
+  text-align: center;
+  overflow: auto;
+  margin-right: 60px;
+  font-weight: bold;
+
+}
+
+
+

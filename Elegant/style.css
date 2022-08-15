@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  overflow: auto;
+}
+
+header {
+  width: 100%;
+  height: 20px;
+  background: #ff4800;
+}
+
+#container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 1000px;
+  height: 600px;
+  margin: 90px auto;
+  padding: 40px;
+  background: url(./bcg.png) no-repeat center center/cover;
+  background-color: #fff5f5;
+  overflow: auto;
+}
+
+.img {
+  float: right;
+  min-height: 100%;
+  width: 50%;
+  overflow: auto;
+}
+
+.img ul {
+  list-style: none;
+  float: right;
+}
+
+.img ul li {
+  margin-top: 15px;
+  display: block;
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.img ul li:hover,
+.img ul .checked {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.content {
+  float: left;
+  min-height: 100%;
+  width: 50%;
+}
+
+.logo, .btn, .icons {
+  color: #ff4800;
+}
+
+
+.content h1 {
+  margin-top: 120px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: .1rem;
+  font-size: .4in;
+}
+
+.content p {
+  font-size: small;
+  margin-top: 15px;
+}
+
+.btn button {
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 5px 30px;
+  border-radius: 20px;
+  color: #ff4800;
+  border: #ff4800 1px solid;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn button:hover,
+.btn .btn-1 {
+  background: #ff4800;
+  color: #fff;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5 {
+  display: inline-block;
+  margin: 50px 10px;
+  margin-right: 50px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background: #ebd2c9;
+}
+
+.box-2 {
+  background: #ff4800;
+}
+
+.icons {
+  margin-top: 60px;
+}
+
+.icons p i {
+  margin-right:5px;
+}
+
+.clr {
+  clear: both;
+}
+
+footer {
+  margin-top: 99px;
+  width: 100%;
+  height: 20px;
+  background: #ff4800;
+}

@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+#background {
+  position: relative;
+  max-width: 1200px;
+  height: 700px;
+  background: url(./blur.jpg) no-repeat center center/cover;
+  margin: 20px auto;
+  overflow: auto;
+}
+
+.container {
+  position: absolute;
+  width: 1100px;
+  height: 500px;
+  background: url(./img12.jpg) no-repeat center center/cover;
+  top: 87.5px;
+  left: 50px;
+  padding: 50px; 
+  margin: auto;
+  overflow: auto;
+}
+
+
+.h-right ul {
+  list-style: none;
+  float: right;
+}
+
+.h-right ul li {
+  float: left;
+  text-align: center;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.h-right ul li:hover {
+  color: #700756;
+}
+
+.h-left {
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border-right: #fff 4px solid;
+}
+
+.h-left .hhl {
+  margin: 26%;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: #fff 3px solid;
+}
+
+.body {
+  margin-top: 100px;
+}
+
+.body h1 {
+  letter-spacing: .1rem;
+  font-size: .6in;
+}
+
+.p1 {
+  font-weight: bold;
+  font-size: larger;
+  letter-spacing: .1rem;
+}
+
+.body p {
+  display: block;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+
+.body-right {
+  float: right;
+  width: 30%;
+  height: auto;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: #e04bd9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  background: #e04bd9;
+}
